@@ -52,4 +52,10 @@ export class PublishedArticlePage implements OnInit {
     });
   }
 
+
+  gotonewPage() {
+
+    this.router.navigate(['/my-new'])
+
+  }
 }

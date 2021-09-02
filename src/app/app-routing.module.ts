@@ -22,7 +22,11 @@ const routes: Routes = [
   {
     path: 'my-modal',
     loadChildren: () => import('./AllPages/my-modal/my-modal.module').then( m => m.MyModalPageModule)
+  },  {
+    path: 'my-new',
+    loadChildren: () => import('./AllPages/my-new/my-new.module').then( m => m.MyNewPageModule)
   },
+
 ];
 
 @NgModule({
